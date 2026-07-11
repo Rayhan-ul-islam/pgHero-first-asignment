@@ -228,7 +228,8 @@ header ul {
   justify-content: center;
   gap: 60px;
   align-items: center;
-  padding: 25px 0px 10px 0px;;
+  padding: 25px 0px 10px 0px;
+  ;
   margin-top: 25px;
 }
 
@@ -246,14 +247,49 @@ header ul {
 .two {
   background-color: #5D0EC0;
 }
+
 .three {
   background-color: #012C22;
 }
 
-footer{
+footer {
   background-color: #0D1B2A;
+  margin-top: 35px;
 }
-.footer{
+
+.footer {
   width: 1240px;
   margin: auto;
+  padding: 30px 0;
+}
+
+.logo-social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-media-li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+footer hr{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #8080800a;
+}
+
+.copy-write{
+  display: flex;
+  color: #FFFFFF;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.tarm-cons{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px ;
 }
