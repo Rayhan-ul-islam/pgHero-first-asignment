@@ -249,3 +249,11 @@ header ul {
 .three {
   background-color: #012C22;
 }
+
+footer{
+  background-color: #0D1B2A;
+}
+.footer{
+  width: 1240px;
+  margin: auto;
+}
